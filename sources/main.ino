@@ -1,7 +1,5 @@
-#include "Cat.hpp"
-#include "Feeder.hpp"
-#include "Tag.hpp"
+#include "CatFeeder.hpp"
 
 int main(void){
-	
+
 }

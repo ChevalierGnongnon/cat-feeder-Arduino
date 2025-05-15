@@ -1,3 +1,5 @@
+
+
 int ft_strlen(char *str){
 	int i = 0;
 
