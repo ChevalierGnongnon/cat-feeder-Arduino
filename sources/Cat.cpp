@@ -1,15 +1,7 @@
-#ifndef CAT_HPP
-# define CAT_HPP
-# include "Tag.hpp"
+#include "Cat.hpp"
+#include "utils.cpp"
 
-class Cat{
-	private :
-		const char	_name[16];
-		Tag			_tag;
-		int			_weight;
-	public :
-		Cat(Tag tag, char *name, int weight);
-		~Cat();
-};
-
-#endif
+Cat::Cat(Tag tag, char *name){
+	ft_strcopy(name, this->_name);
+	this->_tag = tag;
+}
